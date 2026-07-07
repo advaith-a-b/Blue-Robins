@@ -1,0 +1,17 @@
+{
+  "name": "bluerobins-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-grade multi-role SaaS platform dashboard for BlueRobins",
+  "scripts": {
+    "dev:student": "npm run dev -w apps/student",
+    "dev:mentor": "npm run dev -w apps/mentor",
+    "dev:parent": "npm run dev -w apps/parent",
+    "dev:admin": "npm run dev -w apps/admin",
+    "build:all": "npm run build --workspaces --if-present"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
