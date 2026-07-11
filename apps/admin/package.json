@@ -1,0 +1,21 @@
+{
+  "name": "@bluerobins/admin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@bluerobins/types": "*",
+    "@bluerobins/constants": "*",
+    "@bluerobins/config": "*",
+    "@bluerobins/utils": "*",
+    "@bluerobins/assets": "*",
+    "@bluerobins/ui": "*",
+    "@bluerobins/api": "*",
+    "@bluerobins/hooks": "*"
+  }
+}
