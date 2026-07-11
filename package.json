@@ -4,6 +4,7 @@
   "private": true,
   "description": "Production-grade multi-role SaaS platform dashboard for BlueRobins",
   "scripts": {
+    "dev:all": "npm run dev --workspaces --parallel",
     "dev:student": "npm run dev -w apps/student",
     "dev:mentor": "npm run dev -w apps/mentor",
     "dev:parent": "npm run dev -w apps/parent",
