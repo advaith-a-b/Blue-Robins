@@ -7,6 +7,7 @@
   "dependencies": {
     "@bluerobins/types": "*",
     "@bluerobins/constants": "*",
-    "@bluerobins/utils": "*"
+    "@bluerobins/utils": "*",
+    "@bluerobins/supabase": "*"
   }
 }

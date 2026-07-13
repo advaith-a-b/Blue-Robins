@@ -67,7 +67,7 @@ dist-ssr/
 *.sln
 *.sw?
 
-# Environment variables
+# Environment variables (keep .env.example for reference)
 .env
 .env.local
 .env.development.local
@@ -75,6 +75,10 @@ dist-ssr/
 .env.production.local
 *.env
 *.env.*
+
+# Keep example files for reference
+!.env.example
+!env-template
 
 # OS files
 .DS_Store
