@@ -3,6 +3,7 @@ import { useMockState } from '@bluerobins/api';
 import { useAuth } from '@bluerobins/hooks';
 import { Card, CardContent, Button, Badge, Modal, Input, Avatar } from '@bluerobins/ui';
 import { formatDate } from '@bluerobins/utils';
+import { IMAGES } from '@bluerobins/assets';
 import { Plus, Edit2, BookOpen } from 'lucide-react';
 
 export default function MyNotes() {

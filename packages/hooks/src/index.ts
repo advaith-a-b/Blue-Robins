@@ -21,6 +21,8 @@ export function useAuth() {
     isAuthenticated: !!currentUser,
     switchRole,
     setUser: setCurrentUser,
+    db,
+    notifications: db.notifications,
   };
 }
 
