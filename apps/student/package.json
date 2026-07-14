@@ -9,14 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@bluerobins/types": "*",
-    "@bluerobins/constants": "*",
-    "@bluerobins/config": "*",
-    "@bluerobins/utils": "*",
-    "@bluerobins/assets": "*",
-    "@bluerobins/ui": "*",
-    "@bluerobins/api": "*",
-    "@bluerobins/hooks": "*",
+    "@bluerobins/types": "file:../../packages/types",
+    "@bluerobins/constants": "file:../../packages/constants",
+    "@bluerobins/config": "file:../../packages/config",
+    "@bluerobins/utils": "file:../../packages/utils",
+    "@bluerobins/assets": "file:../../packages/assets",
+    "@bluerobins/ui": "file:../../packages/ui",
+    "@bluerobins/api": "file:../../packages/api",
+    "@bluerobins/hooks": "file:../../packages/hooks",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.3"
